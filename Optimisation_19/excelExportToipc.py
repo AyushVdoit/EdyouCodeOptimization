@@ -1,6 +1,7 @@
 import json
 import boto3
 from uuid import uuid4
+import secrets
 from boto3.dynamodb.conditions import Key
 
 dynamodb = boto3.resource('dynamodb')
